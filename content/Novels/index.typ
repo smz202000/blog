@@ -11,12 +11,13 @@
 == 作品列表
 
 #tufted.blog-entry(
-  date: [连载中 · 33章],
+  date: [已完结 · 33章],
   path: "雾钟/",
   title: "《雾钟》— 悬疑 · 九龙城",
 )
 
 #html.elem("p", attrs: (style: "color:#888; font-size:0.9rem;"), [
+  #html.elem("span", attrs: (class: "tag-badge tag-completed"), [已完结])
   一桩发生在九龙城的失踪案，牵扯出一段被掩埋的往事。钟声不响，雾不散。
 ])
 

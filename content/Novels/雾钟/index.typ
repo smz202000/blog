@@ -6,7 +6,10 @@
 
 = 《雾钟》
 
-#html.elem("p", attrs: (class: "section-intro"), [一桩发生在九龙城的失踪案，牵扯出一段被掩埋的往事。钟声不响，雾不散。])
+#html.elem("p", attrs: (class: "section-intro"), [
+  #html.elem("span", attrs: (class: "tag-badge tag-completed"), [已完结])
+  一桩发生在九龙城的失踪案，牵扯出一段被掩埋的往事。共33章，已完结。钟声不响，雾不散。
+])
 
 == 目录
 

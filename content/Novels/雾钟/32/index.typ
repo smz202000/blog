@@ -14,6 +14,14 @@
 #cmarker.render(md-content, math: mitex, scope: scope)
 
 #html.hr()
+
+#html.elem("div", attrs: (class: "tag-list"), [
+  #html.elem("a", attrs: (href: "/Tags/#悬疑", class: "tag-badge"), [悬疑])
+  #html.elem("a", attrs: (href: "/Tags/#九龙城", class: "tag-badge"), [九龙城])
+  #html.elem("a", attrs: (href: "/Tags/#雾钟", class: "tag-badge"), [雾钟])
+  #html.elem("a", attrs: (href: "/Tags/#完结", class: "tag-badge tag-completed"), [已完结])
+])
+
 #align(center)[
   #link("/Novels/雾钟/")[← 返回《雾钟》目录]
 ]

@@ -15,6 +15,7 @@
 - *技术 & 学科* — 写代码的心得、学东西的笔记
 - *碎碎念* — 日常的碎片想法，没什么大道理
 - *转载* — 别人写的好东西，值得存下来反复看
+- *标签* — 按标签查找感兴趣的内容
 
 慢慢逛，不着急。
 
@@ -73,25 +74,28 @@
 == 最近更新
 
 #tufted.blog-entry(
-  date: [即将上线],
-  path: "/Novels/",
-  title: "📖 第一篇小说的位置",
+  date: [已完结],
+  path: "/Novels/雾钟/",
+  title: "📖 《雾钟》— 33章悬疑小说",
 )
 
 #tufted.blog-entry(
-  date: [即将上线],
-  path: "/Tech/",
-  title: "🛠️ 第一篇技术笔记的位置",
+  date: [第33章],
+  path: "/Novels/雾钟/33/",
+  title: "《雾钟》最终章 — 无名书",
 )
 
 #tufted.blog-entry(
-  date: [即将上线],
-  path: "/Musings/",
-  title: "💭 第一条碎碎念的位置",
+  date: [第32章],
+  path: "/Novels/雾钟/32/",
+  title: "《雾钟》— 1997",
 )
 
 #tufted.blog-entry(
-  date: [即将上线],
-  path: "/Reposts/",
-  title: "🔗 第一篇转载的位置",
+  date: [第01章],
+  path: "/Novels/雾钟/01/",
+  title: "《雾钟》开篇 — 雾钟",
 )
+
+#link("/Novels/雾钟/")[浏览全部 33 章 →]
+

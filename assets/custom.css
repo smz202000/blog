@@ -107,3 +107,62 @@ html.dark .repost-source {
   background: #252525;
   color: #999;
 }
+
+/* --- Tag badges --- */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 8px;
+}
+
+.tag-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #f0f0eb;
+  border: 1px solid #e0e0d8;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #666;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.tag-badge:hover {
+  background: #e8e8e0;
+  color: #333;
+  border-color: #ccc;
+}
+
+.tag-completed {
+  background: #e8f5e9;
+  border-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.tag-completed:hover {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+html.dark .tag-badge {
+  background: #252525;
+  border-color: #3a3a3a;
+  color: #aaa;
+}
+
+html.dark .tag-badge:hover {
+  background: #333;
+  color: #ddd;
+}
+
+html.dark .tag-completed {
+  background: #1a3020;
+  border-color: #2a4a30;
+  color: #4caf50;
+}
+
+html.dark .tag-completed:hover {
+  background: #243828;
+  color: #66bb6a;
+}
