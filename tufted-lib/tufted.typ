@@ -36,8 +36,8 @@
   footer-elements: (),
 
   // Custom CSS and JS Scripts
-  css: ("/assets/custom.css", "/assets/live-photo.css", "/assets/upload.css"),
-  js-scripts: ("/assets/live-photo.js", "/assets/upload.js"),
+  css: ("/assets/custom.css",),
+  js-scripts: (),
 
   content,
 ) = {
