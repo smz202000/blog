@@ -10,34 +10,35 @@
   // 然后在 `content/` 路径中新建 `Entry/`路径，在其中添加 `index.typ` 作为 Entry 页的内容
   header-links: (
     "/": "Home",
-    "/Blog/": "Blog",
-    "/Live-Photos/": "Live Photos",
-    "/Docs/": "Docs",
-    "/CV/": "CV",
+    "/Novels/": "小说",
+    "/Tech/": "技术",
+    "/Musings/": "碎碎念",
+    "/Reposts/": "转载",
+    "/Live-Photos/": "实况照片",
   ),
   
   /// 网站的站点标题。会显示在浏览器标签页以及 SEO/社交分享卡片中。
-  website-title: "My Blog",
+  website-title: "Flemo's Blog",
   /// 网站作者。用于生成 <meta name="author"> 标签。（可选）
-  author: "@blog-author",
+  author: "@flemo",
   /// 网站描述。用于 SEO 搜索引擎摘要和社交媒体分享预览。（可选）
-  description: "个人博客 - 记录生活、技术与思考",
+  description: "小说、技术、碎碎念、转载 — 一个小而美的个人博客",
   /// 站点的根 URL (例如 "https://example.com")。用于生成 Canonical URL 元数据。（可选）
-  website-url: "https://myblog.vercel.app/",
+  website-url: "https://blog-murex-ten-99.vercel.app/",
   /// 网站的默认语言，例如 "zh" 或 "en"，默认为 "zh"。
   lang: "zh",
   /// 订阅源配置 (字符串数组)，指定包含在 RSS 订阅源中的内容目录列表。（可选）
   /// 例如，`("/Blog/",)` 会将 `Blog` 目录下的所有文章包含在订阅源中。
-  feed-dir: ("/Blog/",),
-  
+  feed-dir: ("/Blog/", "/Novels/", "/Tech/", "/Musings/", "/Reposts/"),
+
   /// 自定义页眉元素列表 (content 数组)。显示在页面顶部。
   header-elements: (
-    [欢迎来到我的博客～],
-    [记录生活，分享美好],
+    [🐚 欢迎来到 Flemo's Blog],
+    [小说 · 技术 · 碎碎念 · 转载],
   ),
   /// 自定义页脚元素列表 (content 数组)，显示在页面底部。
   footer-elements: (
-    "© 2026 My Blog",
+    "© 2026 Flemo's Blog",
     [Powered by #link("https://github.com/Yousa-Mirage/Tufted-Blog-Template")[Tufted-Blog-Template]],
   ),
 )
