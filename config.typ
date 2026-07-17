@@ -10,19 +10,20 @@
   // 然后在 `content/` 路径中新建 `Entry/`路径，在其中添加 `index.typ` 作为 Entry 页的内容
   header-links: (
     "/": "Home",
-    "/Docs/": "Docs",
     "/Blog/": "Blog",
+    "/Live-Photos/": "Live Photos",
+    "/Docs/": "Docs",
     "/CV/": "CV",
   ),
   
   /// 网站的站点标题。会显示在浏览器标签页以及 SEO/社交分享卡片中。
-  website-title: "Tufted Blog Template",
+  website-title: "My Blog",
   /// 网站作者。用于生成 <meta name="author"> 标签。（可选）
-  author: "@Yousa-Mirage",
+  author: "@blog-author",
   /// 网站描述。用于 SEO 搜索引擎摘要和社交媒体分享预览。（可选）
-  description: "Tufted Blog Template, Powered by Typst",
+  description: "个人博客 - 记录生活、技术与思考",
   /// 站点的根 URL (例如 "https://example.com")。用于生成 Canonical URL 元数据。（可选）
-  website-url: "https://tufted-blog.pages.dev/",
+  website-url: "https://myblog.vercel.app/",
   /// 网站的默认语言，例如 "zh" 或 "en"，默认为 "zh"。
   lang: "zh",
   /// 订阅源配置 (字符串数组)，指定包含在 RSS 订阅源中的内容目录列表。（可选）
@@ -31,12 +32,12 @@
   
   /// 自定义页眉元素列表 (content 数组)。显示在页面顶部。
   header-elements: (
-    [你好 Ciallo～(∠・ω< )⌒☆],
-    [欢迎使用本模板！],
+    [欢迎来到我的博客～],
+    [记录生活，分享美好],
   ),
   /// 自定义页脚元素列表 (content 数组)，显示在页面底部。
   footer-elements: (
-    "© 2026 Yousa-Mirage",
+    "© 2026 My Blog",
     [Powered by #link("https://github.com/Yousa-Mirage/Tufted-Blog-Template")[Tufted-Blog-Template]],
   ),
 )
